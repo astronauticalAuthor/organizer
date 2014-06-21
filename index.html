@@ -7,18 +7,19 @@
   <title>Welcome to the Internet</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="icon" type="text/png" href="favico.png" />
-
+  <script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
 
   <div id="options">
-
-    <button type="button" onclick="add">Add</button>
-    <button type="button" onclick="remove">Remove</button>
-    <button type="button" onclick="reset">Reset</button>
-
+    <div class="right padded">
+      <button type="button" onclick="addRow()" class="headerButton">Add</button>
+      <button type="button" onclick="removeRow()" class="headerButton">Remove</button>
+      <button type="button" onclick="reset()" class="headerButton">Reset</button>
+    </div>
   </div>
+
   <div id="main">
     <div id="display">
       <div id="block1" class="square"></div>
@@ -33,7 +34,7 @@
     </div>
   </div>
 
-  <script type="text/javascript" src="script.js"></script>
+  
 </body>
 
 </html>

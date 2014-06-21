@@ -1,15 +1,17 @@
 .square{
-  border: 1px solid rgb(40, 139, 248);
-  height: 230px;
-  width: 230px;
+  border: 2px solid rgb(40, 139, 248);
+  height: 200px;
+  width: 200px;
   padding: 0px;
   display: block;
   float: left;
   border-radius: 3px;
+  margin: 15px;
+  background: linear-gradient(#fff, #E6E6E6);
 }
 
 #display{
-  width: 696px;
+  width: 702px;
   display: block;
 }
 
@@ -25,11 +27,36 @@
 #options{
   width: 100%;
   height: 50px;
-  background: linear-gradient(#4175CE, #1564E9 60%, #0C45A6);
+  background: linear-gradient(#4175CE, #1564E9 20%, #0C45A6);
   display: block;
 }
 
 body{
   padding: 0px;
   margin: 0px;
+}
+
+.headerButton {
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #66A3FF;
+  border-radius: 3px;
+  width: 75px;
+  background: linear-gradient(#fff, #66A3FF 90%);
+}
+
+.headerButton:hover {
+  background: linear-gradient(#D1E3FF, #66A3FF 90%);
+}
+
+.headerButton:active, .headerButton:focus {
+  background: #66A3FF;
+}
+
+.right {
+  display: block;
+  float: right;
 }
